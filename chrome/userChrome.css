@@ -1,15 +1,44 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+/* Raise titlebar height to 51px */
+#titlebar {
+	min-height: 51px !important;
+	height: 51px !important;
+	max-height: 51px !important;
+	}
+
 /* Left spacer on tab row */
 .titlebar-spacer[type="pre-tabs"] {
     width: 2px !important;
-}
+	}
 
 /* No speaker icon on tabs */
 .tab-icon-image {
-	opacity: 0 !important;
+	opacity: 1 !important;
 	}
 	
 .tab-icon-overlay {
 	display: none !important;
+	}
+
+/* Hide tab close button */
+.tab-close-button {
+	display: none !important;
+	}
+
+/* Hide tracking protection icon from address bar */
+#tracking-protection-icon-container {
+	display: none !important;
+	}
+
+/* Hide star icon from address bar */
+.urlbar-page-action {
+	display: none !important;
+	}
+
+/* Move edit bookmark panel to center of the screen */
+#editBookmarkPanel {
+	position: absolute !important;
+	margin-top: 25px !important;
+	margin-right: -50vw !important
 	}
