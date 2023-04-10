@@ -1,11 +1,14 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/* Raise titlebar height to 51px */
+/* Raise titlebar height */
 #titlebar {
-	min-height: 51px !important;
-	height: 51px !important;
-	max-height: 51px !important;
+	height: 50px !important;
 	}
+
+/* Optional: Change titlebar separator color */
+#navigator-toolbox{
+	--chrome-content-separator-color: rgb(58, 58, 58) !important;
+}
 
 /* Left spacer on tab row */
 .titlebar-spacer[type="pre-tabs"] {
