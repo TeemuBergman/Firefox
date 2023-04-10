@@ -1,6 +1,6 @@
 # Firefox customization
 
-Just a few of my personal tweaks to Firefox's UI.
+Just a few quick tweaks to Firefox's UI. This customization is mostly intended to be used in Windows 11 with dark theme.
 
 ### Install instructions
 
