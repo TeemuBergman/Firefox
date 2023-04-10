@@ -1,0 +1,15 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* Left spacer on tab row */
+.titlebar-spacer[type="pre-tabs"] {
+    width: 2px !important;
+}
+
+/* No speaker icon on tabs */
+.tab-icon-image {
+	opacity: 0 !important;
+	}
+	
+.tab-icon-overlay {
+	display: none !important;
+	}
