@@ -1,6 +1,6 @@
 # Firefox customization
 
-![](.\images\screenshot.png)
+![screenshot](./assets/screenshot.png)
 
 Just a few quick tweaks to Firefox's UI to make it more compact by sacrificing few usability elements. This customization is mostly intended to be used in Windows 11 with dark theme.
 
