@@ -10,8 +10,13 @@
 	--chrome-content-separator-color: rgb(58, 58, 58) !important;
 }
 
-/* Left spacer on tab row */
+/* Resize left spacer on tab row */
 .titlebar-spacer[type="pre-tabs"] {
+    width: 20px !important;
+	}
+
+/* Resize right spacer on tab row */
+.titlebar-spacer[type="post-tabs"] {
     width: 2px !important;
 	}
 
@@ -44,4 +49,9 @@
 	position: absolute !important;
 	margin-top: 25px !important;
 	margin-right: -50vw !important
+	}
+
+/* Hide windows controls (minimize, maximize, close) */
+.titlebar-buttonbox-container {
+	display: none !important;
 	}
