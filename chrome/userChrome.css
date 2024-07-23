@@ -1,10 +1,5 @@
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
-/* Raise titlebar height */
-#titlebar {
-	height: 50px !important;
-	}
-
 /* Optional: Change titlebar separator color */
 #navigator-toolbox{
 	--chrome-content-separator-color: rgb(58, 58, 58) !important;
