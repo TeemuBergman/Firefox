@@ -50,3 +50,8 @@
 .titlebar-buttonbox-container {
 	display: none !important;
 	}
+
+/* Disable fullscreen transition animation */
+#navigator-toolbox[fullscreenShouldAnimate] {
+	transition: none !important;
+	}
